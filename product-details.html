@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/product-details.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/32e8147167.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- header start -->
+    <header>
+      <div class="header-bg">
+        <div class="container">
+          <div class="sticky">
+            <div class="navbar">
+              <div class="logo">
+                <a href="index.html"
+                  ><img src="./assets/images/logo.png.webp" alt=""
+                /></a>
+              </div>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navigation">
+                <ul class="link list-unstyled d-flex justify-content-end mb-0">
+                  <li class="me-5"><a href="index.html">HOME</a></li>
+                  <li class="me-5 dropdown">
+                    <a href="">SHOP</a>
+                    <ul class="dropdown-content shop">
+                      <li><a href="shop-category.html">SHOP CATEGORY</a></li>
+                      <li>
+                        <a href="product-details.html">PRODUCT DETAILS</a>
+                      </li>
+                      <li><a href="shopping-cart.html">SHOPPING CART</a></li>
+                    </ul>
+                  </li>
+                  <li class="me-5 dropdown">
+                    <a href="">BLOG</a>
+                    <ul class="dropdown-content shop">
+                      <li><a href="blog.html">BLOG</a></li>
+                      <li><a href="blog-details.html">BLOG DETAILS</a></li>
+                    </ul>
+                  </li>
+                  <li class="me-5 dropdown pages">
+                    <a href="login.html">PAGES</a>
+                    <ul class="dropdown-content shop">
+                      <li><a href="login.html">LOGIN</a></li>
+                      <li><a href="register.html">REGISTER</a></li>
+                    </ul>
+                  </li>
+                  <li class="me-5"><a href="contact.html">CONTACT</a></li>
+                  <li class="me-4"><i class="bi bi-bag"></i></li>
+                  <li><i class="bi bi-search"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="header-center">
+            <div class="row d-flex align-items-center justify-content-end">
+              <div class="header-first-text col-12 d-flex flex-column mb-3">
+                <h1>Product Details Page</h1>
+                <div class="add-bag d-flex align-items-center">
+                  <a href="index.html">Home</a>
+                  <i class="bi bi-arrow-right"></i>
+                  <a href="shop-category.html">Shop</a>
+                  <i class="bi bi-arrow-right"></i>
+                  <a href="product-details.html">Product-details </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+    <!-- main start -->
+    <main>
+      <section id="details">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="left-shoes-img">
+                <div class="line-three">
+                  <div class="line-1"></div>
+                  <div class="line-2"></div>
+                  <div class="line-3"></div>
+                </div>
+                <img src="./assets/images/s-p1.jpg.webp" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right-box">
+                <div class="right-text">
+                  <h3>Faded SkyBlu Denim Jeans</h3>
+                  <h2>$149.99</h2>
+                  <ul>
+                    <li>
+                      <a class="first-line" href=""
+                        >Category
+                        <span style="color: #ff6c00">: Household</span></a
+                      >
+                    </li>
+                    <li>
+                      <a class="first-line" href=""
+                        >Availability <span>: In Stock</span></a
+                      >
+                    </li>
+                  </ul>
+                  <p>
+                    Mill Oil is an innovative oil filled radiator with the most
+                    modern technology. If you are looking for something that can
+                    make your interior look awesome, and at the same time give
+                    you the pleasant warm feeling during the winter.
+                  </p>
+                  <div class="count">
+                    <span>Quantity: </span>
+                    <div class="inp-count">
+                      <input type="number" value="1" name="" id="" />
+                    </div>
+                  </div>
+                  <div class="add-cart">
+                    <div class="btn-clock">
+                      <button>
+                        <a href="#">ADD TO CART</a>
+                      </button>
+                    </div>
+                    <div class="product-bottom">
+                      <a href=""> <i class="bi bi-gem"></i></a>
+                      <a href=""><i class="bi bi-heart"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="product-description">
+        <div class="container">
+          <div class="nav-product">
+            <ul>
+              <li><a href="">Description</a></li>
+              <li><a href="">Specification</a></li>
+              <li><a href="">Comments</a></li>
+              <li><a href="">Reviews</a></li>
+            </ul>
+          </div>
+          <div class="tab-area">
+            <div class="review-area">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="row">
+                    <div class="col-6 all-total">
+                      <div class="box-total">
+                        <h5>Overall</h5>
+                        <h4>4.0</h4>
+                        <h6>(03 Reviews)</h6>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="rating">
+                        <h3>Based on 3 Reviews</h3>
+                        <span
+                          >5 star
+                          <i class="fa-solid fa-star" style="color: #ffd43b"></i
+                          ><i
+                            class="fa-solid fa-star"
+                            style="color: #ffd43b"
+                          ></i
+                          ><i
+                            class="fa-solid fa-star"
+                            style="color: #ffd43b"
+                          ></i
+                          ><i
+                            class="fa-solid fa-star"
+                            style="color: #ffd43b"
+                          ></i
+                          ><i
+                            class="fa-solid fa-star"
+                            style="color: #ffd43b"
+                          ></i>
+                          01</span
+                        >
+                        <br />
+                        <span
+                          >4 star
+                          <i class="fa-solid fa-star" style="color: #ffd43b"></i
+                          ><i
+                            class="fa-solid fa-star"
+                            style="color: #ffd43b"
+                          ></i
+                          ><i
+                            class="fa-solid fa-star"
+                            style="color: #ffd43b"
+                          ></i
+                          ><i
+                            class="fa-solid fa-star"
+                            style="color: #ffd43b"
+                          ></i
+                          ><i
+                            class="fa-solid fa-star"
+                            style="color: #ffd43b"
+                          ></i>
+                          01</span
+                        ><br />
+                        <span
+                          >3 star
+                          <i class="fa-solid fa-star" style="color: #ffd43b"></i
+                          ><i
+                            class="fa-solid fa-star"
+                            style="color: #ffd43b"
+                          ></i
+                          ><i
+                            class="fa-solid fa-star"
+                            style="color: #ffd43b"
+                          ></i
+                          ><i
+                            class="fa-solid fa-star"
+                            style="color: #ffd43b"
+                          ></i
+                          ><i
+                            class="fa-solid fa-star"
+                            style="color: #ffd43b"
+                          ></i>
+                          01</span
+                        >
+                        <br />
+                        <span
+                          >2 star
+                          <i class="fa-solid fa-star" style="color: #ffd43b"></i
+                          ><i
+                            class="fa-solid fa-star"
+                            style="color: #ffd43b"
+                          ></i
+                          ><i
+                            class="fa-solid fa-star"
+                            style="color: #ffd43b"
+                          ></i
+                          ><i
+                            class="fa-solid fa-star"
+                            style="color: #ffd43b"
+                          ></i
+                          ><i
+                            class="fa-solid fa-star"
+                            style="color: #ffd43b"
+                          ></i>
+                          01</span
+                        >
+                        <br />
+                        <span
+                          >1 star
+                          <i class="fa-solid fa-star" style="color: #ffd43b"></i
+                          ><i
+                            class="fa-solid fa-star"
+                            style="color: #ffd43b"
+                          ></i
+                          ><i
+                            class="fa-solid fa-star"
+                            style="color: #ffd43b"
+                          ></i
+                          ><i
+                            class="fa-solid fa-star"
+                            style="color: #ffd43b"
+                          ></i
+                          ><i
+                            class="fa-solid fa-star"
+                            style="color: #ffd43b"
+                          ></i>
+                          01</span
+                        >
+                      </div>
+                    </div>
+                    <div class="comment">
+                      <div class="comment-item">
+                        <div class="all-info d-flex align-items-center gap-3">
+                          <div class="info">
+                            <img
+                              src="./assets/images/review-1.png.webp"
+                              alt=""
+                            />
+                          </div>
+                          <div class="info-right">
+                            <h4>Blake Ruiz</h4>
+                            <i
+                              class="fa-solid fa-star"
+                              style="color: #ffd43b"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star"
+                              style="color: #ffd43b"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star"
+                              style="color: #ffd43b"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star"
+                              style="color: #ffd43b"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star"
+                              style="color: #ffd43b"
+                            ></i>
+                          </div>
+                        </div>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip
+                          ex ea commodo
+                        </p>
+                      </div>
+                      <div class="comment-item">
+                        <div class="all-info d-flex align-items-center gap-3">
+                          <div class="info">
+                            <img
+                              src="./assets/images/review-2.png.webp"
+                              alt=""
+                            />
+                          </div>
+                          <div class="info-right">
+                            <h4>Blake Ruiz</h4>
+                            <i
+                              class="fa-solid fa-star"
+                              style="color: #ffd43b"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star"
+                              style="color: #ffd43b"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star"
+                              style="color: #ffd43b"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star"
+                              style="color: #ffd43b"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star"
+                              style="color: #ffd43b"
+                            ></i>
+                          </div>
+                        </div>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip
+                          ex ea commodo
+                        </p>
+                      </div>
+                      <div class="comment-item">
+                        <div class="all-info d-flex align-items-center gap-3">
+                          <div class="info">
+                            <img
+                              src="./assets/images/review-3.png.webp"
+                              alt=""
+                            />
+                          </div>
+                          <div class="info-right">
+                            <h4>Blake Ruiz</h4>
+                            <i
+                              class="fa-solid fa-star"
+                              style="color: #ffd43b"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star"
+                              style="color: #ffd43b"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star"
+                              style="color: #ffd43b"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star"
+                              style="color: #ffd43b"
+                            ></i>
+                            <i
+                              class="fa-solid fa-star"
+                              style="color: #ffd43b"
+                            ></i>
+                          </div>
+                        </div>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip
+                          ex ea commodo
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="review-second-part">
+                    <h4>Add a Review</h4>
+                    <p>
+                      Your Rating:
+                      <i
+                        class="fa-solid fa-star ms-2"
+                        style="color: #ffd43b"
+                      ></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i
+                        class="fa-solid fa-star me-2"
+                        style="color: #ffd43b"
+                      ></i>
+                      Outstanding
+                    </p>
+
+                    <form class="row">
+                      <div class="inputs">
+                        <div class="inp-form">
+                          <input
+                            type="text"
+                            name=""
+                            id=""
+                            placeholder="Your Full name"
+                          />
+                        </div>
+                        <div class="inp-form">
+                          <input
+                            type="text"
+                            name=""
+                            id=""
+                            placeholder="Email adress"
+                          />
+                        </div>
+                        <div class="inp-form">
+                          <input
+                            type="text"
+                            name=""
+                            id=""
+                            placeholder="Phone number"
+                          />
+                        </div>
+
+                        <div class="inp-form">
+                          <textarea
+                            name=""
+                            id=""
+                            placeholder="Review"
+                          ></textarea>
+                        </div>
+                      </div>
+                      <div class="div-btn">
+                        <div class="btn-review">
+                          <button>Submit now</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="product-area">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+              <h1>Deals of the Week</h1>
+              <p style="margin-bottom: 50px">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-9">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="item-product d-flex gap-3">
+                    <a href=""
+                      ><img src="./assets/images/r1.jpg.webp" alt=""
+                    /></a>
+                    <div class="info">
+                      <a href="">BLACK LACE HEELS</a>
+                      <div class="price d-flex gap-3">
+                        <h6>$189.00</h6>
+                        <h6>$210.00</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="item-product d-flex gap-3">
+                    <a href=""
+                      ><img src="./assets/images/r2.jpg.webp" alt=""
+                    /></a>
+                    <div class="info">
+                      <a href="">BLACK LACE HEELS</a>
+                      <div class="price d-flex gap-3">
+                        <h6>$189.00</h6>
+                        <h6>$210.00</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="item-product d-flex gap-3">
+                    <a href=""
+                      ><img src="./assets/images/r3.jpg.webp" alt=""
+                    /></a>
+                    <div class="info">
+                      <a href="">BLACK LACE HEELS</a>
+                      <div class="price d-flex gap-3">
+                        <h6>$189.00</h6>
+                        <h6>$210.00</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="item-product d-flex gap-3">
+                    <a href=""
+                      ><img src="./assets/images/r5.jpg.webp" alt=""
+                    /></a>
+                    <div class="info">
+                      <a href="">BLACK LACE HEELS</a>
+                      <div class="price d-flex gap-3">
+                        <h6>$189.00</h6>
+                        <h6>$210.00</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="item-product d-flex gap-3">
+                    <a href=""
+                      ><img src="./assets/images/r6.jpg.webp" alt=""
+                    /></a>
+                    <div class="info">
+                      <a href="">BLACK LACE HEELS</a>
+                      <div class="price d-flex gap-3">
+                        <h6>$189.00</h6>
+                        <h6>$210.00</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="item-product d-flex gap-3">
+                    <a href=""
+                      ><img src="./assets/images/r7.jpg.webp" alt=""
+                    /></a>
+                    <div class="info">
+                      <a href="">BLACK LACE HEELS</a>
+                      <div class="price d-flex gap-3">
+                        <h6>$189.00</h6>
+                        <h6>$210.00</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="item-product d-flex gap-3">
+                    <a href=""
+                      ><img src="./assets/images/r9.jpg.webp" alt=""
+                    /></a>
+                    <div class="info">
+                      <a href="">BLACK LACE HEELS</a>
+                      <div class="price d-flex gap-3">
+                        <h6>$189.00</h6>
+                        <h6>$210.00</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="item-product d-flex gap-3">
+                    <a href=""
+                      ><img src="./assets/images/r10.jpg.webp" alt=""
+                    /></a>
+                    <div class="info">
+                      <a href="">BLACK LACE HEELS</a>
+                      <div class="price d-flex gap-3">
+                        <h6>$189.00</h6>
+                        <h6>$210.00</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
+                  <div class="item-product d-flex gap-3">
+                    <a href=""
+                      ><img src="./assets/images/r11.jpg.webp" alt=""
+                    /></a>
+                    <div class="info">
+                      <a href="">BLACK LACE HEELS</a>
+                      <div class="price d-flex gap-3">
+                        <h6>$189.00</h6>
+                        <h6>$210.00</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 right-col">
+              <a href=""><img src="./assets/images/c3.jpg.webp" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- main end -->
+    <!-- footer start -->
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="box">
+              <h6>About Us</h6>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <h6>Newsletter</h6>
+            <p>Stay update with our latest</p>
+            <div class="inp">
+              <form action="">
+                <input
+                  required
+                  placeholder="Enter Email"
+                  type="text"
+                  name=""
+                  id=""
+                />
+                <button class="border border-0">
+                  <i class="bi bi-arrow-right" style="color: white"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 feed">
+            <h6>Instagram Feed</h6>
+            <ul>
+              <li><img src="./assets/images/i1.jpg.webp" alt="" /></li>
+              <li><img src="./assets/images/i2.jpg.webp" alt="" /></li>
+              <li><img src="./assets/images/i3.jpg.webp" alt="" /></li>
+              <li><img src="./assets/images/i4.jpg.webp" alt="" /></li>
+              <li><img src="./assets/images/i5.jpg.webp" alt="" /></li>
+              <li><img src="./assets/images/i6.jpg.webp" alt="" /></li>
+              <li><img src="./assets/images/i7.jpg.webp" alt="" /></li>
+              <li><img src="./assets/images/i8.jpg.webp" alt="" /></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6 follow">
+            <h6>Follow Us</h6>
+            <p>Let us be social</p>
+            <a
+              href="https://www.facebook.com/?locale2=tr_TR&_rdr"
+              target="_blank"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="https://x.com/?lang=tr" target="_blank"
+              ><i class="bi bi-twitter"></i
+            ></a>
+            <a href="https://dribbble.com/" target="_blank"
+              ><i class="bi bi-dribbble"></i
+            ></a>
+            <a href="https://www.behance.net/search/projects" target="_blank"
+              ><i class="bi bi-behance"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            Copyright ©2024 All rights reserved | This template is made with
+            <i class="bi bi-heart"></i> by
+            <a target="_blank" href="https://colorlib.com/wp/templates/">
+              Colorlib
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+  </body>
+</html>
